@@ -1,9 +1,8 @@
 document.addEventListener('DOMContentLoaded', function(){
 
-    const button = document.getElementById("boton");
+    const div = document.getElementById("div"); // Selecciona el elemento por su ID
 
-    boton.addEventListener("click", function () {
+    div.addEventListener("click", function () { // Agrega un manejador de eventos para el clic en el botón
         alert("Hola! Soy el div")
     });
 });
-
